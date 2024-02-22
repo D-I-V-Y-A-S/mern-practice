@@ -1,51 +1,83 @@
-*
- {
-    background-color:black;
+* {
+    background-color: gray;
     border: 0px;
     font-size: 50px;
     color: white;
 }
 
-.prime
-{
-background-color:#33363D;
-width:20%;
-height:100%;
-position:fixed;
-border:solid 1px white;
-color:white;
-
+.prime {
+    background-color: #33363D;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    border: solid 1px white;
+    color: white;
 }
 
-.icon
-{
+.img {
+    margin-left: 20px;
+}
+
+.icon {
     background-color: #33363D;
-    font-size:60px;
+    font-size: 60px;
     text-decoration: none;
-    line-height:2;
-    color:white;
-  
+    line-height: 2;
+    color: white;
+
 }
-.head
-{
-    margin-left:20%;
-    width:100%;
-    height:15%;
-    position:fixed;
-    border:solid 1px white;
+
+.head {
+    margin-left: 20%;
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    border: solid 1px white;
     background-color: #33363D;
 }
 
-#top
-{
-display:flex;
-flex-direction:column;
-border-radius: 50%;
-margin-top: 40px;
-margin-left:2%;
-margin-bottom: 20px;
+#top {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 2%;
+    margin-bottom: 15px;
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 25%;
+    float: left;
+    width: 25%;
+    padding: 25px;
+    border: solid 13px black;
+    border-left: solid 13px purple;
+    border-radius: 30px;
+    background-color: #33363D;
+}
 
+#box1 {
+    margin-top: 1%;
+    margin-left: 25%;
+    float: left;
+    width: 25%;
+    padding: 50px;
+    border: solid 13px black;
+    border-left: solid 13px purple;
+    border-radius: 30px;
+    background-color: #33363D;
+}
 
+b {
+    background-color: #33363D;
+}
 
+p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    ;
+}
