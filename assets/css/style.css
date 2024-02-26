@@ -31,6 +31,9 @@ a {
     text-align: justify;
 }
 
+.icons>a:hover{
+border-left:solid 3px red;
+}
 img {
     margin-right: 10px;
 }
@@ -188,9 +191,11 @@ b {
 
 .text-align {
     display: flex;
-    margin-top: 10px;
+    flex-direction: column;
+    line-height:0;
+    margin:5px;
+    text-align: justify;
 }
-
 
 .top-row-bottom {
     margin-top: 10px;
@@ -206,4 +211,13 @@ b {
     padding: 5px;
     border-radius: 10px;
     text-align: center;
+}
+
+.body-image
+{
+padding-left:60%;
+padding-top: 2%;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
 }
